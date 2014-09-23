@@ -16,6 +16,12 @@
           echo 3 * 4 ."<br>";
           echo 12 / 3 ."<br>";
     ?>
+<br><br>
+    <?php
+        //See  siin on kommentaar
+    ?>
+<br><br>
+
 
 </body>
 </html>
