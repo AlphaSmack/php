@@ -21,7 +21,9 @@
         //See  siin on kommentaar
     ?>
 <br><br>
-
-
+    <?php
+        $var = 54321;
+        echo $var;
+    ?>
 </body>
 </html>
