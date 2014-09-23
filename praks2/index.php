@@ -10,6 +10,12 @@
     <?php echo "Esimene echo"; ?>
 <br>
     <?php echo "Esimene pool " . " ja teine pool."; ?>
+<br>
+    <?php echo 5.2 + 4.6."<br>";
+          echo 6.2 - 2.2."<br>";
+          echo 3 * 4 ."<br>";
+          echo 12 / 3 ."<br>";
+    ?>
 
 </body>
 </html>
