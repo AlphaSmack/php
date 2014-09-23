@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container, header, footer{
+	width:100%;
+}
+
+header{
+	height: 150px;
+}
+
+.topleft, .topright{
+	height: 100%;
+	width: 49.5%;
+}
+
+.topleft, aside p, section aside .aside, section, aside:nth-child(2),footer, footer p:nth-child(1){
+	float: left;
+}
+
+.topleft h1{
+	color: #ff0000;
+	font-size: 34pt;
+	margin-top: 40px;
+}
+
+.topleft p, ul, nav a{
+	font-size: 18pt;
+	color: #787878;
+}
+
+.topright, .search, nav, footer p:nth-child(2){
+	float: right;
+}
+
+li, ul{
+display: inline-block;
+}
+
+ul{
+	margin: 40px 20px 20px 20px;
+}
+
+li{
+	font-size:11pt;
+}
+
+nav a{
+	margin-right:15px;
+}
+
+#container{
+    background-image: url('Images/body-bg.jpg');
+    padding-top: 50px;
+}
+
+section{
+    margin-bottom: 70px;
+}
+
+.aside{
+    height: 350px;
+    width: 250px;
+	font-size: 24pt;
+    margin: 35px 0 0 2%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.aside:nth-child(1){
+    background-image: url('Images/1.jpg');
+}
+
+.aside:nth-child(2){
+    background-image: url('Images/2.jpg');
+}
+
+.aside:nth-child(3){
+    background-image: url('Images/3.jpg');
+}
+
+.aside:nth-child(4){
+    background-image: url('Images/4.jpg');
+    background-size: 200%;
+    background-position: 20% 0;
+}
+
+aside:nth-child(1) h1{
+    margin: 20px 0 0 20px;
+    height: 340px;
+    width: 75%;
+}
+
+aside:nth-child(1){
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-weight: normal;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+aside:nth-child(2) h1, h2{
+    width: 100%;
+    text-align: center;
+}
+
+aside:nth-child(2) h1{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+h2{
+    width: 96%;
+    margin: -20px auto 0 auto;
+    font-size: 17px;
+}
+
+aside p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    width: 100%;
+    text-align: right;
+}
+
+footer{
+    height: 150px;
+    margin: 0 auto;
+}
+
+footer p:nth-child(1), footer p:nth-child(2){
+    color: grey;
+    width: 45%;
+    margin: 0 20px;
+}
+
+footer p:nth-child(2){
+    text-align: right;
+}
