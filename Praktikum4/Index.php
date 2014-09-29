@@ -49,6 +49,15 @@
 
         echo $fullName;
     ?>
+<br>
+<br>
+    <?php
+        $test = "Ei tea";
+        echo "$test kas interpolatsioon töötab";
+    ?>
+<br>
+<br>
+
 
 </body>
 </html>
