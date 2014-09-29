@@ -57,7 +57,40 @@
     ?>
 <br>
 <br>
+    <?php
+        $katse = "proov";
+        echo "Me peame {$katse}ima, kas ka ka nii saab.";
+    ?>
+<br><br>
 
+    <?php
+        $source = "see tekst on väikeste tähtedega!!!";
+        $upper = strtoupper($source);
+        echo "<p>{$upper}</p><br>";
+
+        $ucf= ucfirst($source);
+        echo "<p>$ucf</p><br>";
+
+        echo strlen($source)."<br><br>";
+    ?>
+<br>
+<h2>Täisarvud</h2>
+<br>
+
+    <?php
+        $nr1= 4;
+        $nr2= 2;
+    echo ($nr1+$nr2)*5;
+    echo "<br><br>";
+
+    echo pow(5, 2);
+    echo "<br><br>";
+    echo sqrt(25);
+    echo "<br><br>";
+    echo rand();
+    echo "<br><br>";
+    echo rand(10, 25);
+    ?>
 
 </body>
 </html>
