@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>harjutus-2 - PHP põhitõed</title>
+    <title>Praktikumi juhend 4 - Andmetüübid</title>
 </head>
 <body>
     <h2>Muutujad</h2>
@@ -90,6 +90,28 @@
     echo rand();
     echo "<br><br>";
     echo rand(10, 25);
+    echo "<br><br>";
+
+    $sample_nr = 2;
+    $sample_nr = $sample_nr + 13;
+    echo $sample_nr;
+
+    echo "<br><br>";
+
+    $sample_nr2 = 15;
+    $sample_nr2 += 5;
+
+    echo $sample_nr2;
+?>
+
+<h2>Numbri ja stringi liitmine</h2>
+
+    <?php
+    echo 5 + "5";
+    ?>
+<br><br>
+    <?php
+    echo 5 + "7 teksapüksi";
     ?>
 
 </body>
