@@ -41,6 +41,14 @@
             echo "<li>".$student5."</li>";
         ?>
     </ul>
+<br>
+    <?php
+        $firstName="Risto";
+        $lastName=" Mikelsaar";
+        $fullName = $firstName.$lastName;
+
+        echo $fullName;
+    ?>
 
 </body>
 </html>
